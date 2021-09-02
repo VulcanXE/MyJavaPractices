@@ -5,9 +5,6 @@ public class sample {
         String age = " 28";
         int i = 25;
         int mat = 19;
-        String s = "how are you";
-        char ch = 'H';
-        long l = 90;
         String status = "single";
         System.out.println(gender + " " + behaviour + "," + "he is still" + age
                 + "                              waiting to get married,but still " + status + ".");
