@@ -35,7 +35,7 @@ public class numPowers
         //initialize exponent -- the first thing printed is 2 to the what?
         while (i<numPowersOf2 )
         {
-
+//testing
             //System.out.println(powerof2);;//print out current power of 2
             System.out.println("2^" + i + "=" + powerof2);;//print out current power of 2
             powerof2 = powerof2 * 2;//find next power of 2 -- how do you get this from the last one?
