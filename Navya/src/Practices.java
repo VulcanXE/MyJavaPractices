@@ -1,5 +1,16 @@
 public class Practices {
-    boolean b = true ;
+float f = 67.86f;
+double d = 68.098d;
+String n = ("Hii Hello" ); 
+  boolean b = true ;
+    static int i,  h, k ;
+    static
+    {
+      i = 10 ;
+      h = 23 ;
+      k = 34 ;
+    }
+    final static double PIE = 3.14;
      public static void main(String args[]) {
        //  Byte c = 123 ;
       // System.out.println(d);
@@ -100,9 +111,17 @@ System.out.println(i+ " "+j);
        i++;
      }
        while(i <= 10);*/
-       // ** creating class**//
-
        
+       System.out.println(i + k);
+       Practices myvaribles = new Practices();
+       System.out.println(myvaribles.f + " "+ myvaribles.d + " "+ myvaribles.n);
+{
+  int z = 8;
+  int l = 9;
+  
+  System.out.println(PIE + z);
+}
+     
      
     }
 }
