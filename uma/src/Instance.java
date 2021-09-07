@@ -1,4 +1,4 @@
-import java.lang.ProcessBuilder.Redirect.Type;
+
 
 public class Instance {
    
@@ -11,8 +11,8 @@ String type3="hamsters";
     
     obj.pettype();}
      public void pettype() {
-         String s= "type";
-        switch (s);
+       /* int i;
+        switch (i=1){
         casetype1: 
             {System.out.println("pet type is :"+type1);}
             break;
@@ -27,8 +27,10 @@ String type3="hamsters";
                 break;
                 Default:{
                     System.out.println("no pets available");}
-                }
+                }*/
+                System.out.println("pet type is:  "+type1);
         }
+}
              
             
             
