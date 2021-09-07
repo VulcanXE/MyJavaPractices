@@ -8,17 +8,17 @@ public class Loop {
     {k=10;}
    
     public static void main(String[] args) {
-        int i=1;
-        for(i=1;i<=10;i++);
+      int i =1;
+        for( i=1;i<=10;i++);
         System.out.println(i);
-       while(i<=10){
-         System.out.println(i);i++;
-        System.out.println(k);
-        for(j=1;j<=10;j++);
-        System.out.println(j);
+      // while(i<=10){
+       //  System.out.println(i);i++;
+       // System.out.println(k);
+       // for(j=1;j<=10;j++);
+       // System.out.println(j);
  
 
-    } 
+   // } 
         }
       }
 
