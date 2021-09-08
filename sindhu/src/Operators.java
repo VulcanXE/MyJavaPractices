@@ -4,7 +4,7 @@ public class Operators {
         System.out.println(x++ + x++ + ++x + x++ + ++x + x++ + ++x);
         System.out.println(-x);
         int a=10;
-        int b=3;
+        int b=-5;
         System.out.println(10<<3);
         System.out.println(10>>3);
         System.out.println(a>b && a>b);
