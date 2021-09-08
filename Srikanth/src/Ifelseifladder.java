@@ -1,7 +1,7 @@
 
 public class Ifelseifladder {
     public static void main(String[] args) {
-        int number = 60;
+        int number = 75;
         if (number <= 15) {
             System.out.println("Fail");
         } else if (number <= 45) {
