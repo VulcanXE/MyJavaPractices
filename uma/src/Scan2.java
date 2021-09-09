@@ -4,5 +4,6 @@ public class Scan2 {
         employees="working employees";
         per="permanent";
         temp="temporary";
+        contract="contractors";
     }
 }
