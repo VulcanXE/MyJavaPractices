@@ -3,7 +3,7 @@
 public class Conditional {
     
     public static void main(String[] args) {
-       int a=30;
+      /* int a=30;
         int i =10;
         int j=10;       
       if (i==j)
@@ -17,29 +17,24 @@ public class Conditional {
     if(i<j  &i==j |i>j)
     System.out.println("i=j");
     else
-    System.out.println("i!=j");
-     a=30;
-     i =10;
-     j=20;
+    System.out.println("i!=j");*/
+     //int a=30;
+     int i =10;
+     int j=20;
     
-    /* switch (a=i) {       
-     case 1 :
-        {System.out.println("true");}
-     
-            switch (a=(i+j)){
-                case 1:
-                {System.out.println("true");}
-                break;
-                case 2:
-               { System.out.println("false");}
-            }
-        
-      break;
-        case 2:
-   { System.out.println("false");}
-    break;
+     switch (i+j) {       
+     case 1:
+        System.out.println("10");
+         break;
+        case 30:
+         System.out.println("30");
+        break;
         default:
-        {System.out.println( "come out");}*/
+        System.out.println( "default");}
+
+        
+     
+
    }
 }
 
