@@ -36,9 +36,11 @@ public class Humanbeing {
         human.descriptionPerson();
     }
     // method in the class
-    // method always follows caml case naming convention --- helloIndia, greatJOb, myNameisVJ.
+    // method always follows camel case naming convention --- helloIndia, greatJob, myNameisVJ.
     public void descriptionPerson(){
         System.out.println("He is" + " "+ behaviour+" " + "and "+ nature + " " + "person!" + " and his Id no:" + id);
 
     }
+
+
 }
