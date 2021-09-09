@@ -1,6 +1,6 @@
 public class Case {
     public static void main(String[] args) {
-        int month=10;
+       /* int month=10;
         String monthName="";
         switch (month) {
             case 1:
@@ -41,25 +41,22 @@ public class Case {
             default:System.out.println("invalid");
                 
         }
-        System.out.println(monthName);
+        System.out.println(monthName);*/
 int i=10;
 int j=5;
 switch(i+j){
     case 1:
-    System.out.println("5");
-    break;
-    case 10:
     System.out.println("10");
     break;
     case 15:
     System.out.println("15");
     break;
     default:
-    System.out.println("default");
+    System.out.println("Zero");
 }
-char ch='g';
-switch (ch){
-    case 'a':
+/* char ch='i';
+ switch (ch){
+    case 'b':
     System.out.println("a is an vowel");
     break;
     case'e':
@@ -77,8 +74,24 @@ switch (ch){
     default:
     System.out.println(ch+" "+"is not an vowel");
 
-}
+}*/
 
+String type="dogs";
+int d=2;
+switch(type){
+    case "dogs":d=0;
+    System.out.println(" pet type is dog");
+    break;
+    case "cats":d=1;
+    System.out.println(" pet type is cats");
+    break;
+    case"birds":d=2;
+    System.out.println("  pet type is birds");
+    break;
+    default:d=0;
+    System.out.println(type+d);
+
+}
 
 
     }
