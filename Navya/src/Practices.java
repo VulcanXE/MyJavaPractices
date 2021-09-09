@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Practices {
 float f = 67.86f;
 double d = 68.098d;
@@ -116,12 +118,64 @@ System.out.println(i+ " "+j);
        Practices myvaribles = new Practices();
        System.out.println(myvaribles.f + " "+ myvaribles.d + " "+ myvaribles.n);
 {
-  int z = 8;
-  int l = 9;
+  int z = 10;
+  int l = 5;
   
-  System.out.println(PIE + z);
+  System.out.println(z | l ); // 1010 | 0101 = 1111
+  System.out.println(z == l);
+ // System.out.println(z .equals(l));
 }
-     
-     
-    }
+     //control Statements//
+     Scanner car = new Scanner (System.in);
+     System.out.println("Enter PassWord:");
+     String password = car.nextLine();
+     String password1 = "NavyaChowdary";
+     System.out.println(password);
+      if (password == password1){ //checks if password is correct
+        System.out.println("Welcome to page"); // prints if password is correct
+      }
+     else if (password != "NavyaChowdary"){ //checks if password is incorrect
+        System.out.println("Access Denied"); // prints if password is incorrect
+      }
+      //nested if statments//
+      int s = 19;
+      int m = 6;
+if (s < 10)
+{
+if (s%2==0)
+System.out.println("s is an even number and greater than 10!");
+else
+System.out.println("s is a odd number and greater than 10!");
 }
+else
+{
+System.out.println("s is less than 10");
+}
+int n = 5;
+for (int i=1; i<=n; ++i) //outer loop for number of rows(n) { for (int j=n-i; j>1; j--) //inner loop for spaces
+  { 
+      System.out.print(" " ); //print space
+  
+  for (int j=1; j<=i; ++j ) //inner loop for number of columns
+  { 
+      System.out.print(" * "); //print star
+  } 
+System.out.println();
+  }
+//System.out.println("Hello World!");
+// Switch Case//
+//int val = 8;
+ //switch (8) {
+  //case 7, 8 -> System.out.println(" the value is  matched");
+  //case  9 -> System.out.println( " the value is not matched");
+//}
+String name = "009";
+switch ("009") {
+  case "008":
+    System.out.println("not a valid string");
+    break;
+  default: System.out.println("default");
+    break;
+}
+   }
+  }
