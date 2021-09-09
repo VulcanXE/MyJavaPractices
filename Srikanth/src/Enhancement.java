@@ -1,4 +1,4 @@
-public class Switchpract {
+public class Enhancement {
     public static void main(String[] args) {
         int week = 4;
         String weekString = "";
