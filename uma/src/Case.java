@@ -46,10 +46,10 @@ int i=10;
 int j=5;
 switch(i+j){
     case 1:
-    System.out.println("15");
-    break;
-    case 2:
     System.out.println("10");
+    break;
+    case 15:
+    System.out.println("15");
     break;
     default:
     System.out.println("Zero");
@@ -76,6 +76,22 @@ switch(i+j){
 
 }*/
 
+String type="dogs";
+int d=2;
+switch(type){
+    case "dogs":d=0;
+    System.out.println(" pet type is dog");
+    break;
+    case "cats":d=1;
+    System.out.println(" pet type is cats");
+    break;
+    case"birds":d=2;
+    System.out.println("  pet type is birds");
+    break;
+    default:d=0;
+    System.out.println(type+d);
+
+}
 
 
     }
