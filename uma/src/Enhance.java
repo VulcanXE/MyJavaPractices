@@ -2,6 +2,7 @@
 public class Enhance {
     
 public static void main(String[] args) {
+    //if condition in switch
     String status="minor";
     int age= 17;
     switch(status){
@@ -21,16 +22,16 @@ public static void main(String[] args) {
                 default:
                 System.out.println("kid");
             }
-
+       // multiple case numbers in a single line with char
       char ch='b';
-        switch('ch'){
+        switch(ch){
             case 'a','e','i','o','u':
             System.out.println("vowel");
             break;
             default:
             System.out.println("consonant");
         }
-       
+       //multiple case numbers given in a single line with int
        int a=1;
        switch(a){
            case 1,2,3:
@@ -43,35 +44,61 @@ public static void main(String[] args) {
           System.out.println("not animals"); 
        }
 
-    char ch='b';
-       String alphabet=switch (ch) {
-           case 'a':
-           yield "vowel";
-            case 'e':
-            yield "vowel";
-              case 'i':
-               yield "vowel";
-               case 'o':
-               yield "vowel";
-               case 'u':
-               yield "vowel";
+        //using yield
+    char ch1='u';
+       String alpha=switch (ch) {
+           case 'a','e','i','o','u':
+           System.out.println(ch1+"  is an vowel");
+           
+              yield "vowel";
+            
                default:
-               yield "consonant";}
+               System.out.println(ch1+"  "+"  is a consonant");
+               yield "consonant";
+               };
        
-          char ch='Y';
-           switch(ch){
-               case -> 'a'|'e'|'i'|'o'|'u':
+       // using arrows
+
+          char ch2='Y';{
+           switch(ch2){
+               case'a'|'e'|'i'|'o'|'u'->
                System.out.println("is a lower case vowel");
-               case -> 'A'|'E'|'I'|'O'|'U':
+               case 'A'|'E'|'I'|'O'|'U'->
                System.out.println("is a upper case vowel");
                default->
-               System.out.println("consonant");
+               System.out.println(ch2+"   is consonant");}
+
+      //scope of the block
+
+               int i=20;
+               int j=10;
+               switch (i+j){
+                   case 1:
+         //          {
+           System.out.println("10");
+           // int k=5;
+           //int z=(i+j+k);
+          // System.out.println(z);}
+           break;
+           case 30:
+           System.out.println("30");
+           break;
+           default:
+           System.out.println("do not add");}
+
+           //scope and yield
+
+           //int a1=20;
+          // int b=10;
+           //int sum =switch (i+j){
+            
+        
 
            }
        
-
-        }
-    }
+        
+        }}
+    
 
 
 
