@@ -41,15 +41,15 @@ System.out.println();
 //System.out.println(c);
 }
 
- // pyramid
-  c=1;
-  j=1;
+ //  down pyramid
+  c=0;
+  j=0;
  for (c=5;c<=5;c++){
  for(j=c;j>=c;j--){
    System.out.print("*");
  }
  System.out.println();}
- //System.out.println(c);}
+
   }
 }
 
