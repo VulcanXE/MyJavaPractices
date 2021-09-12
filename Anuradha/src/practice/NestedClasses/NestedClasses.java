@@ -1,4 +1,4 @@
-
+package NestedClasses;
 public class NestedClasses {
     int id;
     String name;
