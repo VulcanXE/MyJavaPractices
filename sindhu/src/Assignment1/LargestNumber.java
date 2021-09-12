@@ -19,45 +19,34 @@ public class LargestNumber {
         input.close();*/
 
 
-      //using elseif
-        int a=50,b=30,c=80;
-      /*  if(a>b&&a>c){
+     //using elseif
+        //int a=50,b=110,c=100;
+     /*   if(a>b&&a>c){
             System.out.println("a is the largest number");
         }
             else if (b>a&&b>c){
                 System.out.println("b is the largest number");
              } else{
                  System.out.println("c is the largest number");
-             }
-*/
+             }*/
+
 
 //nested if
-if(a>b)
-{
+int a=50,b=110,c=100;
+if(a>b){
     if(a>c){
-        System.out.println("largest number a");
-    }
-    else if(b>a){
+        System.out.println("a is the largest");
+    } 
+else if(b>a){
         if(b>c){
-            System.out.println("b is the largest number");
+            System.out.println("b is the largest");
+        } 
+else{
+            System.out.println("c is the largest");
         }
-    }
-    else {
-        System.out.println("c is the largest");
     }
 
 }
-
-
-            
-        
-
-
-
-         
-
-        
-        
-    }
     
+    }
 }
