@@ -1,24 +1,60 @@
 public class Loop {
-  
-  String s="hello";
-  String say="hi";
-    static  int j=1;
-    static final int k;
-    static
-    {k=10;}
-   
-    public static void main(String[] args) {
-      int i =1;
-        for( i=1;i<=10;i++);
-        System.out.println(i);
-      // while(i<=10){
-       //  System.out.println(i);i++;
-       // System.out.println(k);
-       // for(j=1;j<=10;j++);
-       // System.out.println(j);
- 
+  public static void main(String[] args) {
+//simple for loop
+int i=0;
+for (i=1;i<=10;i++){
+System.out.println(i);}
 
-   // } 
-        }
-      }
+//nested for loop
+
+int a=10;
+for (a=1;a<=5;a++){
+  System.out.println(a);
+  int b=5;
+  for (b=1;b<=3;b++){
+    System.out.println(a+"  "+b);
+  }
+
+
+  //labeled for loop
+
+  i=10;
+  int j=5;
+  aa:
+  for(i=1;i<=5;i++){
+    bb:
+    for(j=1;j<=3;j++){
+     if(i==3){
+    break aa;}
+  }
+      {System.out.println(i+"  "+j);}
+
+//  pyramid
+
+int c=1;
+int d=10;
+for (c=1;c<=5;c++){
+for(d=1;d<=c;d++){
+  System.out.print("*");
+}
+System.out.println();
+//System.out.println(c);
+}
+
+ // pyramid
+  c=1;
+  j=1;
+ for (c=5;c<=5;c++){
+ for(j=c;j>=c;j--){
+   System.out.print("*");
+ }
+ System.out.println();}
+ //System.out.println(c);}
+  }
+}
+
+  }}
+
+
+
 
