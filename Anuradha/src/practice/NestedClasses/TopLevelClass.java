@@ -1,3 +1,4 @@
+package NestedClasses;
 public class TopLevelClass {
 
     void accessMembers(OuterClass outer) {     
