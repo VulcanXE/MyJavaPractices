@@ -16,8 +16,10 @@ public class SwitchYield {
 
                     yield "wed";
                 }
-                //default->yield "Invalid"; // no need of default when we use arrow
-           default -> throw new IllegalArgumentException("Unexpected value: " + date);
+                default->{
+                yield "Invalid";
+                } // no need of default when we use arrow
+           //default -> throw new IllegalArgumentException("Unexpected value: " + date);
            //to handle the exception we used illegalargumentexception
         };//switch we are writing in expression, so we need to close it here
         System.out.println("Day is: "+j);
