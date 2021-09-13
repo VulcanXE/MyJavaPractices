@@ -2,7 +2,7 @@
 public class Enhance {
     
 public static void main(String[] args) {
-    //if condition in switch
+  /*  //if condition in switch
     String status="minor";
     int age= 17;
     switch(status){
@@ -42,20 +42,19 @@ public static void main(String[] args) {
           break;
           default:
           System.out.println("not animals"); 
-       }
+       }*/
 
         //using yield
-    char ch1='u';
-       String alpha=switch (ch) {
+        char ch1='k';
+       String s=switch (ch1) {
            case 'a','e','i','o','u':
            System.out.println(ch1+"  is an vowel");
            
               yield "vowel";
             
                default:
-               System.out.println(ch1+"  "+"  is a consonant");
-               yield "consonant";
-               };
+               yield "consonant";};
+               System.out.println(s);
        
        // using arrows
 
@@ -74,11 +73,11 @@ public static void main(String[] args) {
                int j=10;
                switch (i+j){
                    case 1:
-         //          {
+                   {
            System.out.println("10");
-           // int k=5;
-           //int z=(i+j+k);
-          // System.out.println(z);}
+           int k=5;
+          int z=(i+j+k);
+         System.out.println(z);}
            break;
            case 30:
            System.out.println("30");
@@ -86,19 +85,18 @@ public static void main(String[] args) {
            default:
            System.out.println("do not add");}
 
-           //scope and yield
-
-           //int a1=20;
-          // int b=10;
-           //int sum =switch (i+j){
-            
+           //yield
+         int  code=10;
+         String k =switch(code){
+              case 1,2:
+              yield "laptop" ;
+              case 3,4:
+              yield "desktop";
+            default:
+            yield "unknown";
         
-
-           }
-       
-        
-        }}
-    
-
-
-
+         };
+          System.out.println(k);
+        }   
+    }
+  }

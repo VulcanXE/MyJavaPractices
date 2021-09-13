@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Scan2 {
-    static String per,temp,contract,name,type;
+    static String per,temp,contract,type;
     static{
         
         per="permanent";
@@ -15,7 +15,7 @@ public class Scan2 {
         int employees=0;
         String name="uma";
         Scanner scan2obj =new Scanner(System.in);
-        System.out.println("enter no of employees");
+        System.out.println("enter no of employees"+employees);
         employees= scan2obj.nextInt();
         System.out.println("enter the name");
         name=scan2obj.next();
@@ -27,8 +27,10 @@ public class Scan2 {
         System.out.println("enter the type of employee");
         per=scan2obj.nextLine();
         boolean b=scan2obj.nextBoolean();
-        System.out.println("give access");
-
+        if(b==true)
+        System.out.println(b+"give access");
+     else
+     System.out.println(b+" no access");
         //if(type==per){
         //    System.out.println("give access ");
        // }
