@@ -1,3 +1,4 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class ScannersData {//class
@@ -7,7 +8,7 @@ public class ScannersData {//class
     Byte Branches;
     short ParttimeEmployess;
     int FulltimeEmployees;
-    long Turnover;
+    BigInteger Turnover;
     float Percentage;
     double Value;
 
@@ -25,16 +26,21 @@ public class ScannersData {//class
         obj.State= sc.nextLine();
         System.out.println("Number of branches : ");
         obj.Branches = sc.nextByte();
+       // while ((!sc.hasNextByte())){
+         //   sc.nextByte();
+           // System.out.println("Only Bytes allowed.Try again: ");
+        //}//byte Branch=sc.nextByte();
         System.out.println("Number of Parttime Employees: ");
         obj.ParttimeEmployess = sc.nextShort();
         System.out.println("Number of Fulltime Employees: ");
         obj.FulltimeEmployees = sc.nextInt();
         System.out.println("Company turnover: ");
-        obj.Turnover = sc.nextLong();
+        obj.Turnover = sc.nextBigInteger();
         System.out.println("Shares percentage of the company: ");
         obj.Percentage = sc.nextFloat();
         System.out.println("Value of the company: ");
         obj.Value = sc.nextDouble();
+        System.out.println("Output: " + sc.findInLine("Maxotech"));
         System.out.println(sc.delimiter());
         obj.data();//call method
         sc.close();//close scanner
