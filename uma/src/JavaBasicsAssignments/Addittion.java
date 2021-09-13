@@ -6,6 +6,9 @@ public class Addittion {
     public static void main(String[] args) {
         int first,second;
         Scanner Addtionobj = new Scanner(System.in);
+
+        //validation for first integer
+
         do{
             System.out.println("Enter first  integer");
 
@@ -15,8 +18,9 @@ public class Addittion {
              }
              first = Addtionobj.nextInt();
            } while (first<=0);
-
-
+    
+        //validation for the second integer
+        
            do{
             System.out.println("Enter second  integer");
            while (!Addtionobj.hasNextInt() ){
