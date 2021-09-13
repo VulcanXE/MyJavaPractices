@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class ScannerMethods {
+public class NextScanner {
     public static void main(String[] args) {
         Scanner obj=new Scanner(System.in);
        
@@ -14,6 +14,8 @@ public class ScannerMethods {
        System.out.println("enter your gender m/f:  ");
         String gender=obj.next();
         System.out.println(gender.charAt(0));
+        
+        System.out.println(gender.length());
 
         System.out.println("enter your marital status ");
         
