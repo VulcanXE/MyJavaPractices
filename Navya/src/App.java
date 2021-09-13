@@ -19,17 +19,45 @@ public class App {
       
          System.out.println(d);*/
          //looping constructs//
-         char rows = 'e';
+         /*char rows = 'e';
          aa:
-                  for (char a = rows ; a >= 'a'; a-- ) {
-                      System.out.println(a);
+                  for (char a = 'a' ; a <= 'e'; a++ ) {
+                      System.out.println(" ");
                       bb:
                       for (char f = 'a'; f <= a; f++){
                          System.out.print(" "+f);
-                         break bb;
+                         //break bb;
                       }
                       System.out.println();
          }
-    } 
-    
+         int n = 5;
+         aa:
+         for(int i = n; i >= 1; --i){
+             System.out.println(" ");
+        for(int j = 1; j <= n -i; ++j){ 
+System.out.print(" ");
+        }
+        for(int j = 0; j < i-1; ++j){
+        System.out.print(" * ");
+         }
+         System.out.println();
+        
+        bb:
+    for (int a=0; a < n; ++a)
+    {
+        for (int b = n-a; b>1; --b)
+        {
+            System.out.print(" ");
+        }
+        
+        for (int b=0; b<=a; ++b )
+        {
+            System.out.print(" * ");       
+        }
+break bb;
+        System.out.println();
+    }
+    }*/
 }
+         }
+        
