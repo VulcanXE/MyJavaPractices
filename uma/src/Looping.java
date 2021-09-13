@@ -1,4 +1,4 @@
-public class Loop {
+public class Looping {
   public static void main(String[] args) {
 //simple for loop
 int i=0;
@@ -8,7 +8,7 @@ System.out.println(i);}
 //nested for loop
 
 int a=10;
-for (a=1;a<=5;a++){
+for (a=1;a<=5;a++)
   System.out.println(a);
   int b=5;
   for (b=1;b<=3;b++){
@@ -16,19 +16,21 @@ for (a=1;a<=5;a++){
   }
 
 
-  //labeled for loop
+
+ /* //labeled for loop
 
   i=10;
   int j=5;
-  aa:
+  outer:
   for(i=1;i<=5;i++){
-    bb:
+    //System.out.println(i);
+   inner:
     for(j=1;j<=3;j++){
-     if(i==3){
-    break aa;}
-  }
-      {System.out.println(i+"  "+j);}
-
+    //System.out.println(j);}
+    break outer;
+  
+      System.out.println(i+"  "+j);}
+  }*/
 //  pyramid
 
 int c=1;
@@ -41,19 +43,19 @@ System.out.println();
 //System.out.println(c);
 }
 
- // pyramid
-  c=1;
-  j=1;
+ //  down pyramid
+  c=0;
+   int j=0;
  for (c=5;c<=5;c++){
- for(j=c;j>=c;j--){
+ for(j=c;j>=c;j--)
    System.out.print("*");
- }
+ 
  System.out.println();}
- //System.out.println(c);}
-  }
-}
 
-  }}
+  
+}
+  }
+  
 
 
 
