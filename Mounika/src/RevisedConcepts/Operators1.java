@@ -31,7 +31,10 @@ public static void main(String[] args) {
     // o/p - 80; 20*2^2= 20*4
     System.out.println(10>>3);
     // o/p -1 10/2^3= 10/8 prints Quotient
-    System.out.println(10>>3 | 5<<2); // o/p is 21 why
+    System.out.println(10>>3 | 5<<2); // o/p is 21 why// 
+    //10100 binary for 1
+    //00001 binary for 20 or operation happen b/w 1 binary value and 20 binary value
+    //10101 working on bitwise so the value is 21
     //System.out.println(10>>3 || 5<<2);  not accepts because it check for true or false conditions
 
 
