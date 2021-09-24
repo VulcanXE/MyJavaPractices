@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class SwapingNumber {
     public static void main(String[] args) {
         Scanner scannerObj = new Scanner(System.in);
-        int A;
+        int a;
+        int b;
+        int t;
         do{
             System.out.println("Enter A value");
             while(!scannerObj.hasNextInt())
@@ -12,11 +14,11 @@ public class SwapingNumber {
                 scannerObj.next();
             
             }
-            A = scannerObj.nextInt();
+            a = scannerObj.nextInt();
 
-            }while(A <= 0);
+        }while(a <= 0);
 
-            int B;
+            
             do{
                 System.out.println("Enter B value");
                 while(!scannerObj.hasNextInt())
@@ -24,14 +26,15 @@ public class SwapingNumber {
                     System.out.println("This is not a valid Number . Input a valid number");
                     scannerObj.next();
                 }
-                B = scannerObj.nextInt();
-            }while(B <= 0);
+                b = scannerObj.nextInt();
+            }while(b <= 0);
 
-            int T;
-            T = A;
-            A = B;
-            B = T;
-            System.out.println("Swaping of Two Numbers : "+ A +" , "+ B);
+            
+             t = a;
+             b = t;
+             a = b;
+             
+            System.out.println("Swaping of Two Numbers : "+ a +" , "+ b);
             scannerObj.close();
 
         }

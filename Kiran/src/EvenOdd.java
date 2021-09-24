@@ -10,16 +10,15 @@ public class EvenOdd {
             {
                 System.out.println("This is not an Integer . Enter an Integer");
                 scannerObj.next();
-
-            }
+           }
             num = scannerObj.nextInt();
         }while(num <= 0);
         
-        if(num% 2 == 0)
-        System.out.println(num +" is Even");
-        else
-        System.out.println(num +" is Odd");
-        scannerObj.close();
+            if(num% 2 == 0)
+         System.out.println(num +" is Even");
+            else
+         System.out.println(num +" is Odd");
+         scannerObj.close();
 
         
     
